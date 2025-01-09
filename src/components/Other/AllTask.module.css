@@ -1,0 +1,51 @@
+/* .AllTaskContainer{
+    background-color: aqua;
+    padding: 20px;
+    margin-top:10px;
+    border-radius: 30px;
+    height: 20rem;
+    overflow: auto;
+}
+.AllTaskInfo{
+    background-color: burlywood;
+    padding:20px;
+    border-radius: 30px;
+    margin-bottom: 10px;
+    display: flex;
+} */
+
+.AllTaskContainer {
+    margin: 20px auto;
+    width: 95%;
+    overflow-x: auto;
+
+}
+
+.TaskTable {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.TaskTable th, .TaskTable td {
+    padding: 30px;
+    text-align: left;
+    border: 1px solid #352f44;
+    font-size: large;
+}
+.TaskTable td {
+    background-color:#f4eeff;
+}
+
+.TaskTable th {
+    background-color: #c0bada;
+  
+}
+
+.TaskTable tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.TaskTable td:hover {
+    background-color: #e7dafc;
+}

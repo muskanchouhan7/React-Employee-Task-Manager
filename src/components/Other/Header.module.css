@@ -1,0 +1,81 @@
+/* .HeaderContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.userNameDisplay{
+    font-size: 30px;
+    font-weight: bold;
+} */
+
+
+.HeaderContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:50px 90px 50px 90px;
+    background-color: #5c5470; /* Pastel background */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    
+}
+
+
+.userNameDisplay {
+    font-family: 'Arial', sans-serif;
+    /* font-size: 1.5rem; */
+    font-size:x-large;
+    font-weight: bold;
+    color: white;
+    line-height: 1.2;
+    margin: 0;
+}
+.userNameDisplay span{
+    font-size:35px;
+}
+
+.HeaderContainer button {
+    background-color: #fc3a52; /* Pastel pink */
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+/* Hover effect for the button */
+.HeaderContainer button:hover {
+    background-color: rgb(247, 9, 9); /* Slightly darker pastel pink */
+    transform: scale(1.05);
+}
+
+/* Focus effect for accessibility */
+.HeaderContainer button:focus {
+    outline: none;
+    box-shadow: 0 0 4px 2px #ffd1dc;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .HeaderContainer {
+        flex-direction: column;
+        text-align: center;
+        padding: 15px;
+    }
+
+    .userNameDisplay {
+        font-size: 1.25rem;
+    }
+    .userNameDisplay span {
+        font-size: 1.30rem;
+    }
+
+    .HeaderContainer button {
+        margin-top: 10px;
+        width: 100%;
+        padding:10px;
+    }
+}

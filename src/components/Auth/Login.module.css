@@ -1,0 +1,71 @@
+/* Login.module.css */
+
+/* Overall container */
+.loginContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4eeff; 
+    font-family: 'Arial', sans-serif;
+   
+  }
+  
+  /* Login form */
+  .loginForm {
+    
+    gap: 30px;
+    padding:70px 30px 70px 30px;
+  }
+  
+  /* Input fields */
+  .emailInput,
+  .passInput {
+    border: 2px solid #a6b1e1; /* Light border */
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 16px;
+    background-color: #f9f9f9; /* Light pastel background */
+    outline: none;
+    transition: border 0.3s;
+  }
+  
+  .emailInput:focus,
+  .passInput:focus {
+    border: 1px solid #a8dadc; /* Soft pastel green focus */
+    background-color: #ffffff;
+  }
+  
+  /* Login button */
+  .loginBtn {
+    background-color: #6892d5; /* Pastel green */
+    color: #ffffff;
+    border: none;
+    border-radius: 20px;
+
+    padding: 15px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .loginBtn:hover {
+    background-color: #105dd8; /* Slightly darker shade */
+  }
+  
+  /* Responsive styling */
+  /* @media (max-width: 768px) {
+
+    .emailInput,
+    .passInput {
+      font-size: 14px;
+      padding: 10px;
+    }
+  
+    .loginBtn {
+      font-size: 14px;
+      padding: 10px;
+    }
+  }
+   */
