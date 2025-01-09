@@ -1,8 +1,34 @@
-# React + Vite
+# React Employee Task Manager
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Description
+The **React Employee Task Manager** is a web application designed to streamline task management for employees and administrators. Built with **React.js**, this application allows administrators to assign tasks to employees, while employees can view, update, and manage their tasks.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+
+### For Admin:
+- Assign new tasks to employees.
+- Monitor task statuses (New, Active, Completed, Failed).
+
+### For Employees:
+- View assigned tasks categorized by their statuses.
+- Update task statuses to "Completed" or "Failed."
+- Tasks remain visible on the dashboard even after status updates.
+
+### General:
+- Role-based functionality (Admin and Employee).
+- Real-time task updates with dynamic UI rendering.
+- Mobile-friendly and responsive design.
+
+---
+
+## Tech Stack
+
+### Frontend:
+- **React.js**: Core library for building the user interface.
+- **CSS Modules**: For modular and scoped styling.
+
+### State Management:
+- **Context API**: To manage global state and share data across components.
+- **Local Storage**: Used to persist application data, such as employee task details and statuses, ensuring data is retained even after a page reload.
